@@ -15,3 +15,22 @@ public class Viagem {
 	private Double orcamento;
 	private Integer pessoas;
 }
+
+@Table name = "TBL_VIAGEM"
+@Entity public class Viagem
+{
+	@Id
+	@Column name = ("ID_VIAGEM")
+	
+	@Column name = ("TX_DESTINO")
+	
+	@Column name = ("TP_VIAGEM")
+	
+	@Column name = ("DT_CHEGADA")
+	
+	@Column name = ("DT_SAIDA")
+	
+	@Column name = ("VLR_ORCAMENTO")
+	
+	@Column name = ("QTD_PESSOAS")
+}
